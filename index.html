@@ -5,8 +5,120 @@
     <title>HTML Academy: Техномарт</title>
   </head>
   <body>
+  	<header class="main-header">
+  		<nav class="nav-top">
+  			<a class="main-header-logo">
+  				<img src="img/index-logo.svg" width="225" height="50" alt="Логотип Техномарт">
+  			</a>
+  			 
+  			  <!-- Здесь будет форма "Поиск" -->
+  			<ul class="user-info">
+  			  	<li>
+  			  		<a href="bookmarks.html">Закладки:<span class="amount-bookmarks">0<span></a>
+  			  	</li>
+  			  	<li>  
+  			  		<a href="busket.html">Корзина:<span class="quantity">0</span> </a>
+  			  	</li>
+            </ul>
+            <a href="#" class="order-link">Оформить заказ</a>
+  		</nav>
+  		<h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+  		<section class="header-contacts">
+  			<p class="phone">
+  				+7 (812) 555-05-55
+  			</p>   
+  			<p class="adress">
+  				г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+  			</p>
+  		</section>
+  		<ul class="user-navigation">
+          <li class="login-link">Войти</li>
+          <li class="login-link">Регистрация</li>
+          <!-- я бы поставила ссылки, но в лекции сделано так на примере барбершопа. Сказали, что расскажут в следующей лекции почему так сделано. -->
+        </ul>
+        <nav class="main-nav">
+          	<ul class="site-navigation">
+            	<li><a href="main-page.html">Главная</a></li>
+            	<li><a href="company.html">Компания</a></li>
+            	<li><a href="catalog.html">Каталог</a></li>
+            	<li><a href="news.html">Новости</a></li>
+            	<li><a href="offers.html">Спецпредложения</a></li>
+            	<li><a href="delivery.html">Доставка</a></li>
+            	<li><a href="contacts.html">Контакты</a></li>
+          	</ul>
+        </nav>
+  	</header>
+  	<main class="container">
+  		<!-- Основная часть раздела выделена красным, значит по заданию я ее не размечаю на данном этапе. -->
+  		<section class="description">
+  			<!-- Поставила такой класс,т.к. на преимущества это не тянет...наверное -->
+  			<h2>Компания "Техномарт"</h2>
+  			<p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
+  			<p>Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями:</p>
+  			<ul>
+  				<li>Деловые линии</li>
+  				<li>Автотрейдинг</li>
+  				<li>ЖелДорЭкспедиция</li>	
+  			</ul>
+  			<a class="button" href="description.html">Подробнее о компании</a>
+  		</section>
+  		<section class="main-contacts">
+  			<h2>Контакты</h2>
+  			<p>Вы можете забрать товар сами, заехав в наш офис:</p>
+  			<figure class="map">
+          		<a href="#"><img src="img/map.jpg" width="300" height="160" alt="Карта"></a>
+        	</figure>
+        	<a class="button map-button">Заблудились? Напишите нам!</a>
+  		</section>
+  	</main>
+  	<footer class="main-footer">
+  		<div class="top-footer">
+  			<nav class="footer-nav">
+  		  		<img src="img/index-logo.svg" width="222" height="68" alt="Логотип Техномарт">
+  		  		<p>г.Санкт-Петербург, ул.Б.Конюшенная,д.19.8 <br>+7(812) 555-05-55
+  		  		</p>
+  		  
+  		  		<ul class="footer-navigation">
+          			<li><a href="company.html">Компания</a></li>
+          			<li><a href="news.html">Новости</a></li>
+			        <li><a href="catalog.html">Каталог</a></li>
+			        <li><a href="delivery.html">Доставка</a></li>
+			        <li><a href="contacts.html">Контакты</a></li>
+        		</ul>
+        		<ul class="special-navigation">
+			        <li><a href="materials.html">Материалы</a></li>
+			        <li><a href="equipment.html">Техника</a></li>
+			        <li><a href="tool.html">Инструмент</a></li>
+			        <li><a href="specialoffers.html">Спецпредложения</a></li>
+        		</ul>
+  		  	</nav>
+        </div>
+        <div class="bottom-footer">
+        	<p class="footer-copyright"> 2010-2017 Компания "Техномарт"<br> Все права защищены</p>
+        	<div class="footer-social">
+        		<ul>
+          			<li><a class="social-button" href="#">Вконтакте</a></li>
+          			<li><a class="social-button" href="#">Фейсбук</a></li>
+          			<li><a class="social-button" href="#">Инстаграм</a></li>
+        		</ul>
+      		</div>
+      		<div class="developers">
+      			<ul>
+      				<li>
+      					<p>Обратная связь:<br>
+      					<a href="#">mail@htmlacademy.ru</a></p>
+      				</li>
+      				<li>
+      					<p>Раработано - <br>
+      					<a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
+      				</li>
+      			</ul>	
+      		</div>
+      	</div>
+  	</footer>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
-
+<!-- Попапы не размечала, поскольку в задании сказано, что этого делать пока что не нужно.  -->
+    <!-- <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+ -->
   </body>
 </html>
