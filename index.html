@@ -1,124 +1,132 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Техномарт</title>
-  </head>
-  <body>
-  	<header class="main-header">
-  		<nav class="nav-top">
-  			<a class="main-header-logo">
-  				<img src="img/index-logo.svg" width="225" height="50" alt="Логотип Техномарт">
-  			</a>
-  			 
-  			  <!-- Здесь будет форма "Поиск" -->
-  			<ul class="user-info">
-  			  	<li>
-  			  		<a href="bookmarks.html">Закладки:<span class="amount-bookmarks">0</span> </a>
-  			  	</li>
-  			  	<li>  
-  			  		<a href="busket.html">Корзина:<span class="quantity">0</span> </a>
-  			  	</li>
-            </ul>
-            <a href="#" class="order-link">Оформить заказ</a>
-  		</nav>
-  		<h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-  		<section class="header-contacts">
-  			<p class="phone">
-  				+7 (812) 555-05-55
-  			</p>   
-  			<p class="adress">
-  				г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-  			</p>
-  		</section>
-  		<ul class="user-navigation">
-          <li class="login-link">Войти</li>
-          <li class="login-link">Регистрация</li>
-          <!-- я бы поставила ссылки, но в лекции сделано так на примере барбершопа. Сказали, что расскажут в следующей лекции почему так сделано. -->
+<head>
+<meta charset="utf-8">
+<title>HTML Academy: Техномарт</title>
+</head>
+<body>
+  <header class="main-header">
+  	<section class="header-top">
+      <a class="main-header-logo">
+        <img src="img/index-logo.svg" width="225" height="50" alt="Логотип Техномарт">
+      </a>
+<!-- Здесь будет форма "Поиск" -->
+      <ul class="header-user-info">
+        <li>
+          <a href="#">Закладки:<span class="amount-bookmarks">0</span> </a>
+        </li>
+        <li>  
+          <a href="#">Корзина:<span class="quantity">0</span> </a>
+        </li>
+      </ul>
+      <a href="#" class="order-link">Оформить заказ</a>
+    </section>
+    <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+    <section class="header-contacts">
+      <p class="header-phone">
+        +7 (812) 555-05-55
+      </p>   
+      <address class="header-adress">
+      	<p>
+          г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+        </p>
+      </address>
+    </section>
+    <ul class="header-user-navigation">
+      <li class="login-link">Войти</li>
+      <li class="login-link">Регистрация</li>
+<!-- я бы поставила ссылки, но в лекции сделано так на примере барбершопа. Сказали, что расскажут в следующей лекции почему так сделано. -->
+    </ul>
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Компания</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="#">Новости</a></li>
+        <li><a href="#">Спецпредложения</a></li>
+        <li><a href="#">Доставка</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+<!-- Основная часть раздела выделена красным, значит по заданию я ее не размечаю на данном этапе. -->
+    <section class="about-us">
+      <section class="about-us-desc">
+<!-- Поставила такой класс,т.к. на преимущества это не тянет...наверное -->
+        <h2>Компания "Техномарт"</h2>
+        <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
+        <p>Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями:</p>
+        <ul>
+          <li>Деловые линии</li>
+          <li>Автотрейдинг</li>
+          <li>ЖелДорЭкспедиция</li>	
         </ul>
-        <nav class="main-nav">
-          	<ul class="site-navigation">
-            	<li><a href="main-page.html">Главная</a></li>
-            	<li><a href="company.html">Компания</a></li>
-            	<li><a href="catalog.html">Каталог</a></li>
-            	<li><a href="news.html">Новости</a></li>
-            	<li><a href="offers.html">Спецпредложения</a></li>
-            	<li><a href="delivery.html">Доставка</a></li>
-            	<li><a href="contacts.html">Контакты</a></li>
-          	</ul>
-        </nav>
-  	</header>
-  	<main class="container">
-  		<!-- Основная часть раздела выделена красным, значит по заданию я ее не размечаю на данном этапе. -->
-  		<section class="description">
-  			<!-- Поставила такой класс,т.к. на преимущества это не тянет...наверное -->
-  			<h2>Компания "Техномарт"</h2>
-  			<p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
-  			<p>Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями:</p>
-  			<ul>
-  				<li>Деловые линии</li>
-  				<li>Автотрейдинг</li>
-  				<li>ЖелДорЭкспедиция</li>	
-  			</ul>
-  			<a class="button" href="description.html">Подробнее о компании</a>
-  		</section>
-  		<section class="main-contacts">
-  			<h2>Контакты</h2>
-  			<p>Вы можете забрать товар сами, заехав в наш офис:</p>
-  			<figure class="map">
-          		<a href="#"><img src="img/map.jpg" width="300" height="160" alt="Карта"></a>
-        	</figure>
-        	<a class="button map-button">Заблудились? Напишите нам!</a>
-  		</section>
-  	</main>
-  	<footer class="main-footer">
-  		<div class="top-footer">
-  			<nav class="footer-nav">
-  		  		<img src="img/index-logo.svg" width="222" height="68" alt="Логотип Техномарт">
-  		  		<p>г.Санкт-Петербург, ул.Б.Конюшенная,д.19.8 <br>+7(812) 555-05-55
-  		  		</p>
-  		  
-  		  		<ul class="footer-navigation">
-          			<li><a href="company.html">Компания</a></li>
-          			<li><a href="news.html">Новости</a></li>
-			        <li><a href="catalog.html">Каталог</a></li>
-			        <li><a href="delivery.html">Доставка</a></li>
-			        <li><a href="contacts.html">Контакты</a></li>
-        		</ul>
-        		<ul class="special-navigation">
-			        <li><a href="materials.html">Материалы</a></li>
-			        <li><a href="equipment.html">Техника</a></li>
-			        <li><a href="tool.html">Инструмент</a></li>
-			        <li><a href="specialoffers.html">Спецпредложения</a></li>
-        		</ul>
-  		  	</nav>
-        </div>
-        <div class="bottom-footer">
-        	<p class="footer-copyright"> 2010-2017 Компания "Техномарт"<br> Все права защищены</p>
-        	<div class="footer-social">
-        		<ul>
-          			<li><a class="social-button" href="#">Вконтакте</a></li>
-          			<li><a class="social-button" href="#">Фейсбук</a></li>
-          			<li><a class="social-button" href="#">Инстаграм</a></li>
-        		</ul>
-      		</div>
-      		<div class="developers">
-      			<ul>
-      				<li>
-      					<p>Обратная связь:<br>
-      					<a href="#">mail@htmlacademy.ru</a></p>
-      				</li>
-      				<li>
-      					<p>Раработано - <br>
-      					<a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
-      				</li>
-      			</ul>	
-      		</div>
-      	</div>
-  	</footer>
-
+        <a class="button about-us-btn" href="#">Подробнее о компании</a>
+      </section>
+      <section class="about-us-contacts">
+        <h2>Контакты</h2>
+        <p>Вы можете забрать товар сами, заехав в наш офис:</p>
+        <figure class="about-us-map">
+          <a href="#"><img src="img/map.jpg" width="300" height="160" alt="Карта"></a>
+        </figure>
+        <a class="button map-button about-us-btn">Заблудились? Напишите нам!</a>
+      </section>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <div class="top-footer">
+    	<a href="#">
+    	  <img src="img/index-logo.svg" width="222" height="68" alt="Логотип Техномарт">
+    	</a>
+      <address>
+        <p>
+          г. Санкт-Петербург, ул.Б.Конюшенная, д. 19/8 
+        <span>+7(812) 555-05-55</span>
+      </p>
+      </address>
+      <nav class="footer-nav"> 		  
+        <ul class="main-footer-nav">
+          <li><a href="#">Компания</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+        <ul class="sub-footer-nav">
+          <li><a href="#">Материалы</a></li>
+          <li><a href="#">Техника</a></li>
+          <li><a href="#">Инструмент</a></li>
+          <li><a href="#">Спецпредложения</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="bottom-footer">
+      <p class="footer-copyright"> 2010-2017 Компания "Техномарт" Все права защищены</p>
+      <div class="footer-social">
+        <ul class="social-block footer-social-block">
+          <li><a class="social-button" href="#">Вконтакте</a></li>
+          <li><a class="social-button" href="#">Фейсбук</a></li>
+          <li><a class="social-button" href="#">Инстаграм</a></li>
+        </ul>
+      </div>
+      <section class="footer-developers">
+      	<h3 class="visually-hidden">Информация о разработчике</h3>
+        <ul>
+          <li>
+            <p>Обратная связь:
+              <a href="#">mail@htmlacademy.ru</a></p>
+          </li> 
+          <li>
+            <p>Раработано - 
+              <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
+          </li>
+        </ul>	
+      </section>
+    </div>
+  </footer>
 <!-- Попапы не размечала, поскольку в задании сказано, что этого делать пока что не нужно.  -->
     <!-- <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
  -->
-  </body>
+</body>
 </html>
