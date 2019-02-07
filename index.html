@@ -11,10 +11,9 @@
       <a class="main-header-logo">
         <img src="img/index-logo.png" width="225" height="50" alt="Логотип Техномарт">
       </a>
-      <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+      <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
         <p>
-        	<input id="main-search" type="text" name="search" placeholder="">
-        	<label for="main-search">Поиск:</label>     
+        	<input id="main-search" type="text" name="search" placeholder="Поиск:">     
         </p>
       </form>
       <ul class="header-user-info">
@@ -126,6 +125,7 @@
     </div>
   </footer>
   <section class="modal modal-feedback">
+    <button class="modal-feedback-close" type="button">Закрыть</button>
     <h2 class="visually-hidden">Обратная связь</h2>
       <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
         <p>
@@ -140,13 +140,8 @@
           <label class="login-checkbox" for="feedback-user-name">Текст письма:</label>
           <textarea name="user-textarea" placeholder="В свободной форме"></textarea>            
         </p>
-        <button class="button" type="submit">
-          Отправить
-        </button>
+        <button class="button" type="submit">Отправить</button>
       </form>
-    <button class="modal-feedback-close" type="button">
-      Закрыть
-    </button>
   </section>
 </body>
 </html>
