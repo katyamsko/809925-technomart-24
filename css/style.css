@@ -1,0 +1,367 @@
+body {
+  margin: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+}
+.main-header{
+  background-color: #f4f7f9;
+}
+.header-top {
+  font-family: "Cuprum", Arial, sans-serif;
+   font-size: 17px;
+   line-height: 18px;
+   font-weight: 400;
+   color: #ffffff;
+   background-color: #293449;
+}
+.header-top a {
+  color: #ffffff;
+}
+.search-form input {
+  background-color: #293449;
+  outline: 0;
+  border: 0;
+}
+.main-header-logo img {
+  background-color: #ee3643;
+}
+.header-user-info {
+  list-style: none;
+}
+.user-info-current a {
+ background-color: #ee3643;	
+}
+.order-link {
+  background-color: #63a63e;
+}
+.main-header-logo:hover img  {
+  background-color: #ca2c37;
+}
+/*Есть ли разница в данном случае ставить hover после ссылки или после img? работает и так и так*/
+.main-header-logo:focus img  {
+  background-color: #ba2732;
+}
+/*Почему курсор не меняется при наведении на логотип? это потому что у ссылки нет href? */
+.search-form input:hover,
+.header-user-info a:hover {
+  background-color: #212a3a; 
+}
+.order-link:hover {
+  background-color: #5fbb2d;
+} 
+.header-user-info a:active {
+  background-color: #161d29;
+  color: rgba(255, 255, 255, 0.6); 
+}
+.order-link:active {
+  background-color: #518534;
+  color: rgba(255, 255, 255, 0.5);
+}
+.search-form input:focus {
+  background-color: #ffffff;	
+ }
+ h1 {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+  font-style: italic;
+  color: #ee3643;  
+ }
+ .header-phone {
+   font-family: "Cuprum", Arial, sans-serif;
+   font-size: 21px;
+   line-height: 21px;
+   font-weight: 400;
+   color: #ee3643;
+   border: 3px solid #ffffff;;
+ }
+.header-address {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #32425c;	
+}
+.header-user-navigation{
+  list-style: none;
+}  
+.header-user-navigation a {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff; 
+}
+.header-user-navigation a:hover {
+  color: #ee3643; 
+}
+.header-user-navigation a:active {
+  color: rgba(0, 0, 0, 0.3); 
+}
+.header-user-block a {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+.header-private-block {
+  list-style: none; 	
+}
+.header-private-block a {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #32425c;
+  text-decoration: underline;
+  background-color: #f2f6f8;
+}
+.header-private-block a:hover {
+  color: #ee3643;	
+}
+.header-user-block a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+.main-nav {
+  background-color: #32425c;	
+}
+.main-nav-list {
+  list-style: none;  	
+}
+.main-nav-list a {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #ffffff;	
+}
+.main-nav-list a:hover {
+  background-color: #293449;
+}
+.main-nav-list a:active {
+  color: rgba(255, 255, 255, 0.5);
+}
+.about-us h2 {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #000000; 	
+}
+.about-us-desc p {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+}
+.about-us-desc ul {
+  list-style: none;
+}
+.about-us-desc li {
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 20px;
+}
+.about-us-btn {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+background-color: #ee3643;
+}
+.main-footer{
+  background-color: #32425c;	
+}
+.top-footer img {
+  background-color: #ee3643;	
+}
+.top-footer address {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff; 	
+}
+.footer-nav ul {
+  list-style: none;
+}
+.footer-nav a {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff; 
+}
+.sub-footer-nav a {
+  color: #ffd180;	
+}
+.bottom-footer {
+  background-color: #293449;	
+}
+.footer-copyright {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff; 	
+}
+.social-block {
+  list-style: none;
+}
+.social-block a {
+  color: #ffffff;	
+}
+.footer-developers {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff; 	
+}
+.footer-developers ul {
+  list-style: none;	
+}
+.footer-developers a {
+  color: #ffd180;	
+}
+.footer-nav a:hover {
+  text-decoration: underline;	
+} 
+.main-footer-nav a:active {
+  color: rgba(255, 255, 255, 0.3);	
+} 
+.sub-footer-nav a:active {
+ color: rgba(255, 209, 128, 0.3);	
+}
+.footer-developers a:hover {
+  text-decoration: underline; 	
+}
+.footer-developers a:active {
+  color: #ee3643;
+}
+.modal {
+  display: none;	
+}
+.breadcrumbs {
+  list-style: none;	
+}
+.breadcrumbs a,
+.breadcrumbs-current {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: uppercase; 	
+}
+.catalog-title {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #32425c;
+  text-transform: uppercase;
+  background-color: #f2f6f8;
+}
+.filters fieldset {
+  border: none; 
+}
+.filters legend {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;	
+}
+.filters ul {
+  list-style: none;
+}
+.filter-option {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: uppercase; 	
+}
+.filter-input:disabled +  label {
+  color: rgba(0,0,0,0.3);
+}
+.filter-button {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: uppercase; 
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;	 
+
+}
+.catalog-list {
+  list-style: none;
+}
+.catalog-item {
+	border: 1px solid #E5E5E5;
+}
+.catalog-item h3 a {
+  font-weight: 900;
+  color: #000000;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.item-price {
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 18px;
+  color: white;
+}
+.nonactive-price {
+  color: #999999;
+  text-decoration: line-through;
+}
+.active-price {
+  background-color: #EE3643;
+}
+.item-menu a {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+}
+.item-buy {
+  color: #ffffff;
+  background-color: #63A63E;
+}
+.item-buy:hover {
+  background-color: #5FBB2D; 
+}
+.item-buy:active {
+  background-color: #518534;
+}
+.item-bookmark {
+  border: 3px solid #63A63E;
+}
+.item-bookmark:hover {
+  border-color: black;
+}
+.item-bookmark:active {
+  border-color: #32425c;
+  color: #32425c;
+}
