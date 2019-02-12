@@ -65,7 +65,7 @@ a {
 .search-form input:focus {
   background-color: #ffffff;	
  }
-h1 {
+.main-title {
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 16px;
   line-height: 23px;
@@ -134,9 +134,6 @@ h1 {
 .header-user-block a:active {
   color: rgba(0, 0, 0, 0.3);
 }
-.main-nav {
-/*  background-color: #32425c;*/	
-}
 .main-nav-list {
   list-style: none;  	
 }
@@ -186,9 +183,6 @@ h1 {
 
   background-color: #ee3643;
 }
-.main-footer {
-/*  background-color: #32425c;*/	
-}
 .top-footer-wrap img {
   background-color: #ee3643;	
 }
@@ -212,9 +206,6 @@ h1 {
 }
 .sub-footer-nav a {
   color: #ffd180;	
-}
-.bottom-footer {
-/*  background-color: #293449;*/	
 }
 .footer-copyright {
   font-family: "Cuprum", Arial, sans-serif;
@@ -263,8 +254,7 @@ h1 {
 .breadcrumbs {
   list-style: none;	
 }
-.breadcrumbs a,
-.breadcrumbs-current {
+.breadcrumbs a {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -383,8 +373,9 @@ h1 {
   width: 940px;	
   padding: 0 10px;
   margin: 0 auto;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
 }
+/** > * {outline: 1px solid red}*/
 .header-top-container {
   display: flex;
   justify-content: space-between;
@@ -393,30 +384,37 @@ h1 {
 .header-user-info {
   margin: 0;
   padding: 0;
+
   display: flex;
   justify-content: space-between;
   width: 280px;	
 }
 .main-header-logo {
-  width: 220px;
   padding: 9px 0;
+
+  width: 220px;
+
   text-align: center;
+
   background-color: #ee3643;	
 }
 .order-link {
-  width: 150px;
   padding: 12px 0;
+
+  width: 150px;
+
   text-align: center;
 }
 .header-middle-container {
-  align-items: center;
   padding: 50px 0;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-h1 {
+.main-title {
   width: 300px;
+
   text-align: left;
 }
 .header-contacts {
@@ -428,17 +426,19 @@ h1 {
 .header-user-navigation {
   margin: 0;
   padding: 0;
+
   display: flex;
   justify-content: space-between;
-  width: 280px;
   align-items: center;
+  width: 280px;
 }
 .main-nav-list {
-  background-color: #32425c;
-  width: 920px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 920px;
+
+  background-color: #32425c; 
 }
 .main-header {
   padding-bottom: 60px;
@@ -452,8 +452,8 @@ h1 {
   align-items: center;
 }
 .about-us-desc {
-  width: 550px;
   padding: 50px 0;
+  width: 550px;
 }
 .about-us-contacts {
   width: 300px;
@@ -469,17 +469,18 @@ h1 {
   margin-bottom: 20px;
 }
 .top-footer-container {
+  padding: 40px 10px;
+
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 40px 10px;
+  align-items: center; 
 }
 .top-footer-wrap {
   background-color: #32425c;
 }
 .top-footer-left {
-  width: 380px;
   padding-right: 30px;
+  width: 380px;
 }
 .top-footer-right {
   width: 560px;
@@ -492,6 +493,7 @@ h1 {
 .footer-nav ul {
   padding: 0;
   margin: 0;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -513,19 +515,23 @@ h1 {
 .footer-social ul {
   margin: 0;
   padding: 0;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .visually-hidden {
   position: absolute;
+
   width: 1px;
   height: 1px;
+
   overflow: hidden;
 }
 .footer-developers ul {
   margin: 0;
   padding: 0;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -536,6 +542,7 @@ h1 {
 .header-private-block {
   margin: 0;
   padding: 0;
+
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -557,19 +564,22 @@ h1 {
   justify-content: space-between;
 }
 .catalog-item {
-  width: 220px;	
   margin-bottom: 20px;
   margin-right: 20px;
+
+  width: 220px;
+
   text-align: center;
 }
 .catalog-item:nth-child(3n) {
   margin-right: 0;
 }
 .catalog-list {
-  display: flex;
-  flex-wrap: wrap;
   padding: 0;
   margin: 0;
+
+  display: flex;
+  flex-wrap: wrap;
 
   list-style: none;
 }
