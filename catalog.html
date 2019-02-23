@@ -16,7 +16,16 @@
         </a>
         <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
           <p>
-            <input id="main-search" type="text" name="search" placeholder="Поиск:">    
+            <input class="input-search" id="main-search" type="text" name="search" placeholder="Поиск:">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17px"
+                height="17px" viewBox="0 0 17 17" enable-background="new 0 0 17 17" xml:space="preserve">
+                  <g id="Layer_1"></g>
+                  <g id="Layer_2">
+                    <path d="M17,15.586l-3.542-3.542C14.421,10.782,15,9.21,15,7.5C15,3.358,11.643,0,7.5,0C3.358,0,0,3.358,0,7.5
+                    C0,11.643,3.358,15,7.5,15c1.71,0,3.282-0.579,4.544-1.542L15.586,17L17,15.586z M2,7.5C2,4.467,4.467,2,7.5,2
+                    C10.532,2,13,4.467,13,7.5c0,3.032-2.468,5.5-5.5,5.5C4.467,13,2,10.532,2,7.5z"/>
+                  </g>
+              </svg>    
           </p>
         </form>
         <ul class="header-user-info catalog-user-info">
@@ -39,23 +48,27 @@
         </address>
       </section>
       <div class="header-user-block">
-        <a class="header-user-link" href="#">
-          <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-          width="20px" height="18px" viewBox="0 0 20 18" enable-background="new 0 0 20 18" xml:space="preserve">
-            <path d="M17.881,14.166c-2.144-0.735-4.256-1.666-5.207-2.39c-0.657-0.501-0.77-1.618-0.517-2.415
-            c1.118-0.903,1.864-2.477,1.864-4.278C14.021,2.276,12.221,0,10,0S5.979,2.276,5.979,5.083c0,1.801,0.746,3.374,1.863,4.277
-            c0.253,0.798,0.141,1.915-0.517,2.416c-0.95,0.724-3.063,1.654-5.207,2.39S0,18,0,18h20C20,18,20.025,14.901,17.881,14.166z"/>
-          </svg>
-          Равшан Джамшутович
-          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-          width="21px" height="17px" viewBox="0 0 21 17" enable-background="new 0 0 21 17" xml:space="preserve">
-            <g>
-              <polygon points="21,8.5 12.125,0 12.125,6 6.125,6 6.125,11 12.125,11 12.125,17   "/>
-              <path d="M3.106,13.952V3.048c0.018-0.376,0.171-1.057,1.01-1.057h5.027V0H4.116C1.938,0,1.112,1.81,1.087,3.027
-              v10.946C1.112,15.189,1.938,17,4.116,17h5.027v-1.99H4.116C3.277,15.01,3.124,14.327,3.106,13.952z"/>
-            </g>
-          </svg>
-        </a>
+        <div class="user-block-icons">
+          <a class="header-user-link" href="#">
+            <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              width="20px" height="18px" viewBox="0 0 20 18" enable-background="new 0 0 20 18" xml:space="preserve">
+                <path d="M17.881,14.166c-2.144-0.735-4.256-1.666-5.207-2.39c-0.657-0.501-0.77-1.618-0.517-2.415
+                  c1.118-0.903,1.864-2.477,1.864-4.278C14.021,2.276,12.221,0,10,0S5.979,2.276,5.979,5.083c0,1.801,0.746,3.374,1.863,4.277
+                  c0.253,0.798,0.141,1.915-0.517,2.416c-0.95,0.724-3.063,1.654-5.207,2.39S0,18,0,18h20C20,18,20.025,14.901,17.881,14.166z"/>
+            </svg>
+            Равшан Джамшутович
+          </a>
+          <a class="header-user-link user-link-exit" href="#">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              width="21px" height="17px" viewBox="0 0 21 17" enable-background="new 0 0 21 17" xml:space="preserve">
+                <g>
+                  <polygon points="21,8.5 12.125,0 12.125,6 6.125,6 6.125,11 12.125,11 12.125,17   "/>
+                  <path d="M3.106,13.952V3.048c0.018-0.376,0.171-1.057,1.01-1.057h5.027V0H4.116C1.938,0,1.112,1.81,1.087,3.027
+                    v10.946C1.112,15.189,1.938,17,4.116,17h5.027v-1.99H4.116C3.277,15.01,3.124,14.327,3.106,13.952z"/>
+                </g>
+            </svg>
+          </a>
+        </div>
         <ul class="header-private-block">
           <li><a href="#">Мои заказы</a></li>
           <li><a href="#">Личный кабинет</a></li>
@@ -64,19 +77,35 @@
     </div>
     <nav class="main-nav">
       <ul class="container main-nav-list">
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="#">Компания</a></li>
-        <li><a href="#">Каталог</a></li>
-        <li><a href="#">Новости</a></li>
-        <li><a href="#">Спецпредложения</a></li>
-        <li><a href="#">Доставка</a></li>
-        <li><a href="#">Контакты</a></li>
+        <li class="main-nav-item"><a href="index.html">Главная</a></li>
+        <li class="main-nav-item"><a href="#">Компания</a></li>
+        <li class="main-nav-item"><a href="#">Каталог</a></li>
+        <li class="main-nav-item"><a href="#">Новости</a></li>
+        <li class="main-nav-item"><a href="#">Спецпредложения</a></li>
+        <li class="main-nav-item"><a href="#">Доставка</a></li>
+        <li class="main-nav-item"><a href="#">Контакты</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <div class="container">
       <ul class="breadcrumbs">
+        <li>
+          <a href="index.html">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              width="15px" height="12px" viewBox="0 0 15 12" enable-background="new 0 0 15 12" xml:space="preserve">
+                <g>
+                  <polygon fill="#c1c6ce" points="3,8 3,12 7,12 7,8 9,8 9,12 13,12 13,8 8,3.516   "/>
+                  <path fill="#c1c6ce" d="M14.831,6.365L13,4.751V0h-2v2.987L8.332,0.635c-0.02-0.017-0.043-0.023-0.064-0.037
+                    c-0.026-0.018-0.052-0.035-0.08-0.047C8.156,0.539,8.125,0.533,8.093,0.527C8.062,0.521,8.032,0.515,8,0.515
+                    c-0.031,0-0.061,0.006-0.092,0.012C7.875,0.533,7.845,0.539,7.813,0.552C7.785,0.563,7.76,0.581,7.733,0.598
+                    c-0.021,0.014-0.045,0.02-0.064,0.037l-6.498,5.73C0.964,6.548,0.944,6.864,1.126,7.071C1.225,7.183,1.363,7.24,1.501,7.24
+                    c0.118,0,0.236-0.041,0.331-0.125L8,1.677l6.169,5.438C14.265,7.199,14.383,7.24,14.5,7.24c0.139,0,0.276-0.058,0.375-0.169
+                    C15.058,6.864,15.038,6.548,14.831,6.365z"/>
+                </g>
+            </svg>
+          </a>
+        </li>
         <li><a href="catalog.html">Каталог</a></li>
         <li><a href="#">Инструмент</a></li>
         <li><a>Перфораторы</a></li>
@@ -154,13 +183,13 @@
               <li><a class="filter-function" href="#">По функционалу</a></li>
             </ul>
             <ul class="catalog-icons-list">
-              <a class="icon-link icon-up" href="#">
+              <a class="icon-link icon-up" href="#" aria-label="Sort Ascending" >
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 width="11px" height="10px" viewBox="0 0 11 10" enable-background="new 0 0 11 10" xml:space="preserve">
                   <polygon points="5.5,0 0,10 11,10 "/>
                 </svg>  
               </a>
-              <a class="icon-link icon-down" href="#">
+              <a class="icon-link icon-down" href="#" aria-label="Sort Descending">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 width="11px" height="10px" viewBox="0 0 11 10" enable-background="new 0 0 11 10" xml:space="preserve">
                   <polyline points="5.5,10 0,0 11,0 "/>
@@ -187,10 +216,6 @@
                 <span class="item-price nonactive-price">22500 Р.</span>
                 <span class="item-price active-price">15500 Р.</span>
               </p>
-              <p class="item-menu visually-hidden">
-                <a class="item-buy button">купить</a>
-                <a class="item-bookmark button">в закладки</a>
-              </p>
             </li>
             <li class="catalog-item item-cart">
               <div class="actions">
@@ -209,10 +234,6 @@
               <p class="catalog-item-price">
                 <span class="item-price nonactive-price">30500 Р.</span>
                 <span class="item-price active-price">25500 Р.</span>
-              </p>
-              <p class="item-menu visually-hidden">
-                <a class="item-buy button">купить</a>
-                <a class="item-bookmark button">в закладки</a>
               </p>
             </li>
             <li class="catalog-item item-cart catalog-item-nosale icon-new">
@@ -233,10 +254,6 @@
                 <span class="item-price nonactive-price"></span>
                 <span class="item-price active-price">12500 Р.</span>
               </p>
-              <p class="item-menu visually-hidden">
-                <a class="item-buy button">купить</a>
-                <a class="item-bookmark button">в закладки</a>
-              </p>
             </li>
             <li class="catalog-item item-cart">
               <div class="actions">
@@ -256,10 +273,6 @@
                 <span class="item-price nonactive-price">22500 Р.</span>
                 <span class="item-price active-price">15500 Р.</span>
               </p>
-              <p class="item-menu visually-hidden">
-                <a class="item-buy button">купить</a>
-                <a class="item-bookmark button">в закладки</a>
-              </p>
             </li>
             <li class="catalog-item item-cart icon-new">
               <div class="actions">
@@ -278,10 +291,6 @@
               <p class="catalog-item-price">
                 <span class="item-price nonactive-price">30500 Р.</span>
                 <span class="item-price active-price">25500 Р.</span>
-              </p>
-              <p class="item-menu visually-hidden">
-                <a class="item-buy button">купить</a>
-                <a class="item-bookmark button">в закладки</a>
               </p>
             </li>
             <li class="catalog-item item-cart catalog-item-nosale ">
@@ -302,10 +311,6 @@
                 <span class="item-price nonactive-price"></span>
                 <span class="item-price active-price">12500 Р.</span>
               </p>
-              <p class="item-menu visually-hidden">
-                <a class="item-buy button">купить</a>
-                <a class="item-bookmark button">в закладки</a>
-              </p>
             </li>
             <li class="catalog-item item-cart icon-new">
               <div class="actions">
@@ -324,10 +329,6 @@
               <p class="catalog-item-price">
                 <span class="item-price nonactive-price">22500 Р.</span>
                 <span class="item-price active-price">15500 Р.</span>
-              </p>
-              <p class="item-menu visually-hidden">
-                <a class="item-buy button">купить</a>
-                <a class="item-bookmark button">в закладки</a>
               </p>
             </li>
             <li class="catalog-item item-cart">
@@ -348,10 +349,6 @@
                 <span class="item-price nonactive-price">30500 Р.</span>
                 <span class="item-price active-price">25500 Р.</span>
               </p>
-              <p class="item-menu visually-hidden">
-                <a class="item-buy button">купить</a>
-                <a class="item-bookmark button">в закладки</a>
-              </p>
             </li>
             <li class="catalog-item item-cart catalog-item-nosale">
               <div class="actions">
@@ -371,11 +368,14 @@
                 <span class="item-price nonactive-price"></span>
                 <span class="item-price active-price">12500 Р.</span>
               </p>
-              <p class="item-menu visually-hidden">
-                <a class="item-buy button">купить</a>
-                <a class="item-bookmark button">в закладки</a>
-              </p>
             </li>
+
+          </ul>
+          <ul class="pagination-list">
+            <li class="pagination-item pagination-item-current"><a href="#">1</a></li>
+            <li class="pagination-item"><a>2</a></li>
+            <li class="pagination-item"><a href="#">3</a></li>
+            <li class="pagination-item pagination-next"><a href="#">Следующая</a></li>
           </ul>
         </section>
       </div>  
@@ -395,7 +395,13 @@
       <div class="container top-footer-container">
         <div class="top-footer-left">
           <a class="main-footer-logo" href="#">
-            <img src="img/index-logo.png" width="140" height="25" alt="Логотип Техномарт">
+            <svg 
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="138px" height="23px">
+                <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                  d="M132.538,3.057 L132.538,21.957 L129.838,21.957 L129.838,3.057 L125.038,3.057 L125.038,0.957 L137.338,0.957 L137.338,3.057 L132.538,3.057 ZM122.143,14.172 C121.673,14.762 121.083,15.182 120.373,15.432 C119.663,15.682 118.818,15.807 117.838,15.807 C117.378,15.807 116.858,15.777 116.278,15.717 C115.698,15.657 115.218,15.587 114.838,15.507 L114.838,21.957 L112.138,21.957 L112.138,1.257 C112.898,1.037 113.663,0.882 114.433,0.792 C115.203,0.702 116.038,0.657 116.938,0.657 C118.138,0.657 119.158,0.782 119.998,1.032 C120.838,1.282 121.518,1.697 122.038,2.277 C122.558,2.857 122.938,3.627 123.178,4.587 C123.418,5.547 123.538,6.737 123.538,8.157 C123.538,9.617 123.423,10.837 123.193,11.817 C122.963,12.797 122.613,13.582 122.143,14.172 ZM120.613,5.457 C120.463,4.737 120.228,4.167 119.908,3.747 C119.588,3.327 119.183,3.032 118.693,2.862 C118.203,2.692 117.618,2.607 116.938,2.607 L114.838,2.607 L114.838,13.707 L116.938,13.707 C117.618,13.707 118.203,13.622 118.693,13.452 C119.183,13.282 119.588,12.987 119.908,12.567 C120.228,12.147 120.463,11.577 120.613,10.857 C120.763,10.137 120.838,9.237 120.838,8.157 C120.838,7.077 120.763,6.177 120.613,5.457 ZM105.388,16.557 L99.388,16.557 L98.038,21.957 L95.338,21.957 L100.438,0.957 L104.338,0.957 L109.438,21.957 L106.738,21.957 L105.388,16.557 ZM102.448,3.957 L102.328,3.957 L99.838,14.457 L104.938,14.457 L102.448,3.957 ZM89.488,6.357 L89.338,6.357 L84.988,19.257 L82.288,19.257 L77.938,6.357 L77.788,6.357 L76.888,21.957 L74.188,21.957 L75.388,0.957 L78.688,0.957 L83.578,15.357 L83.698,15.357 L88.588,0.957 L91.888,0.957 L93.088,21.957 L90.388,21.957 L89.488,6.357 ZM69.328,20.007 C68.768,20.827 68.093,21.407 67.303,21.747 C66.513,22.087 65.608,22.257 64.588,22.257 C63.568,22.257 62.663,22.087 61.873,21.747 C61.083,21.407 60.408,20.827 59.848,20.007 C59.288,19.187 58.863,18.082 58.573,16.692 C58.283,15.302 58.138,13.557 58.138,11.457 C58.138,9.357 58.283,7.612 58.573,6.222 C58.863,4.832 59.288,3.727 59.848,2.907 C60.408,2.087 61.083,1.507 61.873,1.167 C62.663,0.827 63.568,0.657 64.588,0.657 C65.608,0.657 66.513,0.827 67.303,1.167 C68.093,1.507 68.768,2.087 69.328,2.907 C69.888,3.727 70.313,4.832 70.603,6.222 C70.893,7.612 71.038,9.357 71.038,11.457 C71.038,13.557 70.893,15.302 70.603,16.692 C70.313,18.082 69.888,19.187 69.328,20.007 ZM68.023,7.017 C67.813,5.857 67.538,4.937 67.198,4.257 C66.858,3.577 66.458,3.107 65.998,2.847 C65.538,2.587 65.068,2.457 64.588,2.457 C64.108,2.457 63.638,2.587 63.178,2.847 C62.718,3.107 62.318,3.577 61.978,4.257 C61.638,4.937 61.363,5.857 61.153,7.017 C60.943,8.177 60.838,9.657 60.838,11.457 C60.838,13.257 60.943,14.737 61.153,15.897 C61.363,17.057 61.638,17.977 61.978,18.657 C62.318,19.337 62.718,19.807 63.178,20.067 C63.638,20.327 64.108,20.457 64.588,20.457 C65.068,20.457 65.538,20.327 65.998,20.067 C66.458,19.807 66.858,19.337 67.198,18.657 C67.538,17.977 67.813,17.057 68.023,15.897 C68.233,14.737 68.338,13.257 68.338,11.457 C68.338,9.657 68.233,8.177 68.023,7.017 ZM51.838,12.357 L45.539,12.357 L45.539,21.957 L42.839,21.957 L42.839,0.957 L45.539,0.957 L45.539,10.257 L51.838,10.257 L51.838,0.957 L54.539,0.957 L54.539,21.957 L51.838,21.957 L51.838,12.357 ZM37.589,21.957 L33.839,12.957 L30.089,21.957 L27.389,21.957 L31.889,11.157 L27.839,0.957 L30.539,0.957 L33.839,9.357 L37.139,0.957 L39.839,0.957 L35.789,11.157 L40.289,21.957 L37.589,21.957 ZM15.539,0.957 L25.739,0.957 L25.739,3.057 L18.239,3.057 L18.239,9.957 L24.839,9.957 L24.839,12.057 L18.239,12.057 L18.239,19.857 L25.739,19.857 L25.739,21.957 L15.539,21.957 L15.539,0.957 ZM8.339,21.957 L5.639,21.957 L5.639,3.057 L0.839,3.057 L0.839,0.957 L13.139,0.957 L13.139,3.057 L8.339,3.057 L8.339,21.957 Z"/>
+            </svg>
           </a>
           <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 
             <span>+7 (812) 555-05-55</span>
@@ -484,16 +490,18 @@
     </div> 
   </footer>
   <section class="modal modal-cart">
-    <button class="modal-cart-close" type="button">Закрыть</button>
+    <button class="modal-close modal-cart-close" type="button"><span class="visually-hidden">Закрыть</span></button>
     <h2>Товар добавлен в корзину!</h2>
-    <ul>
-      <li>
-      	<a href="#">Оформить заказ</a>	
-      </li>
-      <li>
-      	<a href="#">Продолжить покупки</a>	
-      </li>
-    </ul>
+    <div class="modal-cart-links">
+      <ul>
+        <li class="modal-cart-item">
+          <a class="modal-cart-link modal-checkout" href="#">Оформить заказ</a>  
+        </li>
+        <li class="modal-cart-item">
+          <a class="modal-cart-link modal-more-shopping" href="#">Продолжить покупки</a>  
+        </li>
+      </ul>
+    </div>  
   </section>
 </body>
 </html>
