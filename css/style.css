@@ -2,9 +2,9 @@
 body {
   margin: 0;
 
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 400;
   color: #000000;
 
@@ -28,7 +28,6 @@ img {
   white-space: nowrap;
 
   -webkit-clip-path: inset(100%);
-
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
@@ -36,23 +35,19 @@ img {
 }
 .container {
   width: 940px; 
-  
   padding: 0 10px;
   margin: 0 auto;
 }
 .main-header {
-  margin-bottom: 60px;
-  padding-bottom: 59px;
-
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 60px;
+  padding-bottom: 59px;
 
   background-color: #f4f7f9; 
 }
@@ -73,9 +68,9 @@ img {
           align-items: center;
 }
 .header-top {
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   color: #ffffff;
 
@@ -85,24 +80,22 @@ img {
   color: #ffffff;
 }
 .input-search {
-  padding: 9px 0 10px 48px;
-
-  -webkit-box-sizing: border-box;
-
-          box-sizing: border-box;
-
   width: 270px;
   height: 100%;
-
-  font-family: "Cuprum", "Arial", sans-serif;
+  padding: 9px 0 10px 48px;
+   -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+           
   font-size: 17px;
   line-height: 18px;
+  font-family: "Cuprum", "Arial", sans-serif;  
   font-weight: 400;
   color: #000000; 
 
   background-color: #293449;
   outline: 0;
   border: 0;
+
   -webkit-transition: all 0.15s ease;
   -o-transition: all 0.15s ease;
   transition: all 0.15s ease;
@@ -115,36 +108,36 @@ img {
   background-color: #ffffff;  
 }
 input:-ms-input-placeholder {
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
+  font-family: "Cuprum", "Arial", sans-serif;  
   font-weight: 400;
   color: #ffffff; 
   opacity: 1;
 }
 input::-webkit-input-placeholder {
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
+  font-family: "Cuprum", "Arial", sans-serif;  
   font-weight: 400;
   color: #ffffff; 
-    opacity: 1;
+  opacity: 1;
 }
 input::-ms-input-placeholder {
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   color: #ffffff; 
-    opacity: 1;
+  opacity: 1;
 }
 input::placeholder {
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
+  font-family: "Cuprum", "Arial", sans-serif;  
   font-weight: 400;
   color: #ffffff; 
-    opacity: 1;
+  opacity: 1;
 }
 .search-form {
   position: relative;
@@ -161,27 +154,27 @@ input::placeholder {
   height: 18px;
 
   fill: rgba(255, 255, 255, 0.6);
+
   -webkit-transition: all 0.15s ease;
   -o-transition: all 0.15s ease;
   transition: all 0.15s ease;
 }
-.input-search:hover + svg {
+.input-search:hover + label svg {
   fill: rgba(255, 255, 255, 1);
 }
-.input-search:focus + svg {
+.input-search:focus + label svg {
   fill: #ee3643;
 }
 .header-user-info {
-  margin: 0;
-  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-
-  width: 300px; 
+  width: 300px;
+  margin: 0;
+  padding: 0; 
 
   list-style: none;
 }
@@ -190,19 +183,17 @@ input::placeholder {
 }
 .header-user-info a {
   position: relative;
+
   display: block;
+  height: 100%;
   padding-left: 44px;
   padding-bottom: 12px; 
   padding-top: 12px;
   padding-right: 10px;
-
   box-sizing: border-box;
-  height: 100%;
 
   -webkit-transition: all 0.15s ease;
-
   -o-transition: all 0.15s ease;
-
   transition: all 0.15s ease;
 }
 .header-user-info a:active {
@@ -217,26 +208,15 @@ input::placeholder {
 }
 .header-user-info .cart {
   padding-left: 50px;
-
-/*  background-color: #ee3643;  */
 }
-/*.header-user-info .index-cart {
-  background-color: #293449;
-}*/
-/*.header-user-info .catalog-cart:hover {
-  background-color: #ca2c37;
-}
-.header-user-info .catalog-cart:active {
-  background-color: #ba2732;
-}*/
 .order-link {
-  padding: 12px 0;
-
   width: 150px;
+  padding: 12px 0;
 
   text-align: center;
 
   background-color: #63a63e;
+
   -webkit-transition: all 0.15s ease;
   -o-transition: all 0.15s ease;
   transition: all 0.15s ease;
@@ -251,8 +231,6 @@ input::placeholder {
   background-color: #5fbb2d;
 } 
 .header-user-info .header-bookmarks::before {
-  content: "";
-
   position: absolute;
   top: 12px;
   left: 18px;
@@ -260,14 +238,14 @@ input::placeholder {
   width: 16px;
   height: 18px;
   
+  content: "";
+
   background-image: url("../img/icon-bookmark.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.6;
 }
 .header-user-info .cart::before {
-  content: "";
-
   position: absolute;
   top: 12px;
   left: 19px;
@@ -275,6 +253,8 @@ input::placeholder {
   width: 16px;
   height: 18px;
   
+  content: "";
+
   background-image: url("../img/icon-cart.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -287,24 +267,23 @@ input::placeholder {
   opacity: 1;
 }
 .main-header-logo {
-  padding: 13px 0 7px;
-
   width: 220px;
+  padding: 13px 0 7px;
 
   text-align: center;
 
   background-color: #ee3643;
   -webkit-box-shadow: 0 5px 0 0px #b52933;
           box-shadow: 0 5px 0 0px #b52933;
+
   -webkit-transition: all 0.15s ease;
   -o-transition: all 0.15s ease;
   transition: all 0.15s ease;  
 }
 .search-form p {
+  height: 100%;
   margin: 0;
   padding: 0;
-
-  height: 100%;
 }
 .catalog-main-title {
   padding-left: 52px;
@@ -327,74 +306,74 @@ input::placeholder {
   margin-bottom: 18px;
 }
 .main-title {
+  width: 200px;
   margin: 0;
   padding-left: 52px; 
   padding-right: 0;
   padding-top: 6px;
+  margin-right: 58px;
+  padding-right: 10px;
 
-  width: 200px;
-
-  font-family: "Cuprum", "Arial", sans-serif;
+  font-style: italic;
   font-size: 16px;
   line-height: 23px;
-  font-weight: 400;
-  font-style: italic;
-  color: #ee3643; 
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-weight: 400; 
   text-align: left;
+  color: #ee3643;
 }
 .header-phone {
   position: relative;
+
+  width: 270px;  
   margin: 0;
   padding-top: 9px;
-  padding-bottom: 9px;
+  padding-bottom: 10px;
   padding-left: 71px;
   margin-bottom: 4px;
-
-  width: 270px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 21px;
   line-height: 21px;
+  font-family: "Cuprum", "Arial", sans-serif;  
   font-weight: 400;
   color: #ee3643;
+
   border: 3px solid #ffffff;
 }
-.header-phone::before {
-  content: "";
-
+.phone-link::before {
   position: absolute;
   top: 10px;
   left: 11px;
 
   width: 19px;
   height: 19px;
-  
+
+  content: "";
+
   background-image: url("../img/icon-phone.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.6;
 }
 .header-address {
-  padding-left: 8px;
+  padding-left: 9px;
 
-  font-family: "Cuprum", "Arial", sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: 21px;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   color: #32425c; 
 }
+.catalog-header-contacts .header-address {
+  padding-left: 8px;
+}
+
 .header-user-navigation {
-  margin: 0;
-  padding: 0;
-  padding-top: 2px;
-
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -405,24 +384,26 @@ input::placeholder {
       -ms-flex-align: center;
           align-items: center;
   width: 280px;
+  margin: 0;
+  padding: 0;
+  padding-top: 2px;
+  margin-left: auto;
 
   list-style: none;
 }  
 .header-user-navigation a {
   display: block;
 
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 21px;
   line-height: 21px;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   color: #000000;
 
   background-color: #ffffff;
   
   -webkit-transition: all 0.15s ease;
-  
   -o-transition: all 0.15s ease;
-  
   transition: all 0.15s ease; 
 }
 .header-user-navigation a:hover {
@@ -456,23 +437,18 @@ input::placeholder {
   fill: #c5c5c5;
 }
 .registration-link {
-  padding: 13px 25px 12px;
+  padding: 13px 23px 12px 27px;
 }
 .header-user-block a {
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 21px;
   line-height: 21px;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   color: #000000;
 }
 .header-private-block {
-  margin: 0;
-  padding: 0 17px;
-
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
@@ -481,24 +457,24 @@ input::placeholder {
       -ms-flex-align: center;
           align-items: center;
   width:300px;
+  margin: 0;
+  padding: 0 17px;  
   box-sizing: border-box;  
 
   list-style: none; 
 }
 .header-private-block a {
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 16px;
   line-height: 18px;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
-  color: #32425c;
   text-decoration: underline;
+  color: #32425c;
 
   background-color: #f2f6f8;
   
-  -webkit-transition: all 0.15s ease;
-  
+  -webkit-transition: all 0.15s ease; 
   -o-transition: all 0.15s ease;
-  
   transition: all 0.15s ease;
 }
 .header-private-block a:hover {
@@ -508,24 +484,20 @@ input::placeholder {
   color: rgba(0, 0, 0, 0.3);
 }
 .header-middle-container {
-  padding: 43px 0 40px;
-
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  padding: 43px 0 40px;          
 }
 .header-contacts {
-  padding-top: 4px;
-
   width: 270px;
+  padding-top: 3px;
+}
+.catalog-header-contacts {
+  padding-top: 4px;
 }
 .header-private-block li:first-child {
   margin-right: 33px;
@@ -534,20 +506,18 @@ input::placeholder {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-
   padding: 43px 0 38px;
 }
 .header-catalog-container h1 {
-  margin-right: 69px;
+  margin-right: 60px;
 }
 .header-catalog-container .header-phone {
   padding-left: 69px;  
 }
 .header-user-block {
+  width: 300px; 
   margin-left: auto;
   padding-top: 3px;
-
-  width: 300px;
 }
 .user-block-icons {
   display: -webkit-box;
@@ -563,13 +533,12 @@ input::placeholder {
   background-color: #ffffff;
 }
 .user-block-icons > a {
-  display: block;
   position: relative;
+
+  display: block;
   padding: 12px 0 12px 46px;
   margin-bottom: 5px;
-
   -webkit-box-sizing: border-box;
-
           box-sizing: border-box;
 }
 .header-user-block svg {
@@ -589,15 +558,15 @@ input::placeholder {
   position: relative;
 }
 .header-private-block li:first-child::after {
-  content: "";
-
-  display: block;
   position: absolute;
   right: -20px;
   top: 9px;
 
+  display: block;
   width: 4px;
   height: 4px;
+
+  content: "";
 
   border-radius: 50%;
   background-color: #32425c;
@@ -626,10 +595,9 @@ input::placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 940px;
   padding-left: 0;
   padding-right: 0;
-
-  width: 940px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; 
 
@@ -641,17 +609,15 @@ input::placeholder {
   display: block;
   padding: 19px 30px;
 
-  vertical-align: middle; 
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 17px;
   line-height: 17px;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
+  vertical-align: middle;
   color: #ffffff;
 
   -webkit-transition: all 0.15s ease;
-
   -o-transition: all 0.15s ease;
-
   transition: all 0.15s ease; 
 }
 .main-nav-list a:hover {
@@ -667,17 +633,17 @@ input::placeholder {
   padding: 20px 54px 19px 33px;  
 }
 .about-us h2 {
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 30px;
   line-height: 30px;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
-  color: #000000;
   text-transform: uppercase;  
+  color: #000000;
 }
 .about-us-desc p {
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 400;
   color: #000000;
 }
@@ -685,12 +651,12 @@ input::placeholder {
   list-style: none;
 }
 .about-us-btn {
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
-  color: #ffffff;
   text-transform: uppercase;
+  color: #ffffff;
 
   background-color: #ee3643;
 }
@@ -698,9 +664,7 @@ input::placeholder {
   position: relative;
 
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -709,7 +673,6 @@ input::placeholder {
       -ms-flex-pack: start;
           justify-content: flex-start;
   flex-wrap: wrap;
-
   margin: 0;
   padding: 0;
   margin-bottom: 18px;    
@@ -718,6 +681,7 @@ input::placeholder {
 }
 .breadcrumbs li {
   position: relative;
+
   margin-right: 38px;
 }
 .breadcrumbs li:nth-child(2) {
@@ -727,8 +691,6 @@ input::placeholder {
   margin-right: 42px;
 }
 .breadcrumbs li::before {
-  content: "";
-
   position: absolute;
   left: -24px;
   top: 5px;
@@ -737,6 +699,8 @@ input::placeholder {
   width: 8px;
   height: 12px;
 
+  content: "";
+
   background-image: url("../img/icon-right-small.svg");
   background-repeat: no-repeat;
 }
@@ -744,17 +708,15 @@ input::placeholder {
   display: none;
 }
 .breadcrumbs a {
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 400;
-  color: #000000;
   text-transform: uppercase;
+  color: #000000;
 
   -webkit-transition: all 0.15s ease;
-
   -o-transition: all 0.15s ease;
-
   transition: all 0.15s ease;  
 }
 .breadcrumbs svg {
@@ -770,12 +732,12 @@ input::placeholder {
   color: #000000;
 }
 .catalog-title {
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 30px;
   line-height: 30px;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
-  color: #32425c;
   text-transform: uppercase;
+  color: #32425c;
 
   background-color: #f2f6f8;
 }
@@ -788,26 +750,27 @@ input::placeholder {
 .filters legend {
   padding: 0;
 
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 30px;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 700;
-  color: #000000;
   text-transform: uppercase;  
+  color: #000000;
 }
 .filters ul {
   list-style: none;
 }
 .filter-option {
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 20px;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 400;
+  text-transform: uppercase;
   color: #000000;
-  text-transform: uppercase;  
 }
 .filter-option label {
   position: relative;
+  
   display: block;
 
   cursor: pointer;
@@ -817,8 +780,6 @@ input::placeholder {
           user-select: none;
 }
 .filter-input-checkbox + label::after {
-  content: "";
-
   position: absolute;  
   top: -1px;
   left: -34px;
@@ -826,15 +787,11 @@ input::placeholder {
   width: 27px;
   height: 23px;
   
+  content: "";
+
   background-image: url("../img/checkbox-off.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
-  
-/*  -webkit-transition: all 0.15s ease;
-  
-  -o-transition: all 0.15s ease;
-  
-  transition: all 0.15s ease;*/
 }
 .filter-input-checkbox:checked + label::after {
   background-image: url("../img/checkbox-on.svg");
@@ -846,8 +803,6 @@ input::placeholder {
   opacity: 0.3;
 }
 .filter-input-radio + label::before {
-  content: "";
-
   position: absolute;  
   left: -34px;
   top: -3px;
@@ -855,18 +810,16 @@ input::placeholder {
   width: 17px;
   height: 17px;
   
+  content: "";
+
   border: 4px solid #c5c5c5;
   border-radius: 50%;
   
   -webkit-transition: all 0.15s ease;
-  
   -o-transition: all 0.15s ease;
-  
   transition: all 0.15s ease;
 }
 .filter-input-radio:checked + label::after {
-  content: "";
-
   position: absolute;  
   top: 5px;
   left: -26px;
@@ -874,13 +827,13 @@ input::placeholder {
   width: 9px;
   height: 9px;
 
+  content: "";
+
   background-color: #c5c5c5;
   border-radius: 50%;
 
   -webkit-transition: all 0.15s ease;
-
   -o-transition: all 0.15s ease;
-
   transition: all 0.15s ease;
 }
 .filter-input-radio:hover + label::before {
@@ -893,21 +846,19 @@ input::placeholder {
   border-color: rgba(181, 181, 181, 0.3);
 }
 .filter-button {
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 400;
-  color: #000000;
   text-transform: uppercase; 
+  color: #000000;
 
   background-color: #ffffff;
   border: 1px solid #e5e5e5; 
   cursor: pointer;
   
   -webkit-transition: all 0.15s ease;
-  
   -o-transition: all 0.15s ease;
-  
   transition: all 0.15s ease;  
 }
 .filter-button:hover {
@@ -920,18 +871,15 @@ input::placeholder {
           box-shadow: 0 0 5px 0 #ee3643;
 }
 .pagination-list {
-  padding: 0;
-  margin: 0;
-  margin-left: -1px;
-
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-left: -1px;
 
   list-style: none;
 }
@@ -945,20 +893,18 @@ input::placeholder {
   display: block;
   padding: 9px 15px;
 
-  font-weight: 400;
   font-size: 13px;
   line-height: 18px;
-  color: #000000;
+  font-weight: 400;
   text-transform: uppercase;
+  color: #000000;
 
   background-color: #ffffff;
   border: 1px solid #e5e5e5;
   border-radius: 2px;
   
   -webkit-transition: all 0.15s ease;
-  
   -o-transition: all 0.15s ease;
-  
   transition: all 0.15s ease;
 }
 .pagination-item a:hover {
@@ -992,30 +938,30 @@ input::placeholder {
   border: 1px solid #E5E5E5;
 }
 .catalog-item-brand a {
-  font-weight: 700;
-  color: #000000;
   font-size: 18px;
   line-height: 20px;
+  font-weight: 700;
+  color: #000000;
 }
 .item-price {
-  font-weight: 700;
   font-size: 17px;
   line-height: 18px;
+  font-weight: 700;
   color: white;
 }
 .nonactive-price {
-  color: #999999;
   text-decoration: line-through;
+  color: #999999;
 }
 .active-price {
   background-color: #EE3643;
 }
 .item-menu a {
+  font-size: 14px;
+  line-height: 18px;
   font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
-  font-size: 14px;
-  line-height: 18px;
 }
 .item-buy:hover {
   background-color: #5FBB2D; 
@@ -1049,9 +995,8 @@ input::placeholder {
           align-items: center;
 }
 .about-us-desc {
-  padding: 50px 0;
-  
   width: 550px;
+  padding: 50px 0;
 }
 .about-us-contacts {
   width: 300px;
@@ -1080,16 +1025,14 @@ input::placeholder {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-
   margin-bottom: 60px;
 }
 .item-cart {
   position: relative;
 
+  width: 220px;
   margin-bottom: 20px;
   margin-right: 20px;
-
-  width: 220px;
 
   text-align: center;
 }
@@ -1097,17 +1040,14 @@ input::placeholder {
   margin-right: 0;
 }
 .catalog-list {
-  padding: 0;
-  margin: 0;
-  margin-bottom: 31px;
-
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 31px;
 
   list-style: none;
 }
@@ -1120,7 +1060,6 @@ input::placeholder {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-
   margin: 0;
   padding: 0;
   margin-bottom: 30px;
@@ -1128,9 +1067,9 @@ input::placeholder {
   list-style: none;
 }
 .features-item {
-  width: 300px;
   position: relative;
 
+  width: 300px;
   padding: 20px 22px;
   margin-bottom: 22px;
   -webkit-box-sizing: border-box;
@@ -1145,10 +1084,9 @@ input::placeholder {
 .features-list .features-slider {
   position: relative;  
 
-  -webkit-box-sizing: border-box;  
-
-          box-sizing: border-box;
   width: 620px;
+  -webkit-box-sizing: border-box;  
+          box-sizing: border-box;
 }
 .slider-last-item .features-btn {
   margin-left: 1px;
@@ -1156,37 +1094,34 @@ input::placeholder {
 .slider-controls {
   position: absolute;
   left: 50%;
-  bottom: 55px;
+  bottom: 57px;
   z-index: 100;
   
   width: 170px;
   height: 18px;
 
-  text-align: center;
   font-size: 0;
+  text-align: center;
 
   -webkit-transform: translateX(-50%);
-
       -ms-transform: translateX(-50%);
-
           transform: translateX(-50%);
 }
 .slider-controls label {
   position: relative;
   
   display: inline-block;
-  vertical-align: middle;
   width: 14px;
   height: 14px;
   padding: 4px;
-  
+
+  vertical-align: middle;
+
   border-radius: 50%;
   cursor: pointer;
 }
 
 .slider-controls label::after {
-  content: "";
-
   position: absolute;
   top: 6px;
   left: 6px;
@@ -1194,7 +1129,9 @@ input::placeholder {
 
   width: 10px;
   height: 10px;
-  
+
+  content: "";
+
   background: #ffffff;
   border-radius: 50%;
 }
@@ -1206,17 +1143,18 @@ input::placeholder {
 }
 .slider-item {
   display: none;
-
   padding: 21px 25px 28px;
 }
 .slider-item:nth-child(1) {
   background-image: url("../img/slider2.png");
+  background-color: #9c9793;
   background-repeat: no-repeat;
   background-position: 100% 0;
 }
 
 .slider-item:nth-child(2) {
   background-image: url("../img/slider1.png");
+  background-color: #271a13;
   background-repeat: no-repeat;
   background-position: 100% 0;
 }
@@ -1230,9 +1168,6 @@ input::placeholder {
 }
 #product-1:checked ~ .slider-controls .slider-controls-item--1::before,
 #product-2:checked ~ .slider-controls .slider-controls-item--2::before {
-  content: "";
-  margin: -3px;
-  
   position: absolute;
   left: 50%;
   top: 50%;
@@ -1240,7 +1175,10 @@ input::placeholder {
   
   width: 6px;
   height: 6px;
-  
+  margin: -3px;
+
+  content: "";
+
   background-color: #ee3643;
   border-radius: 50%;
 }
@@ -1248,16 +1186,14 @@ input::placeholder {
   margin: 0;
   padding: 0;
   margin-bottom: 3px;
-
   -webkit-box-sizing: border-box;
-
           box-sizing: border-box;
 
+  font-size: 36px;
+  line-height: 36px;
   font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 36px;
-  line-height: 36px;
   color: #ffffff;
 }
 .slider-item p {
@@ -1265,30 +1201,28 @@ input::placeholder {
   padding: 0;
   margin-bottom: 128px;
 
-  font-family: "Cuprum", "Arial", sans-serif;
-  font-weight: 400;
   font-size: 18px;
   line-height: 24px;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-weight: 400;
   color: #ffffff;
 }
 .slider-btn {
   padding: 11px 46px 11px 50px;
 
-  text-align: center;
-  font-family: "Cuprum", "Arial", sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: #ffffff;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-weight: 400;
+  text-align: center;
   text-transform: uppercase;
+  color: #ffffff;
 
   background-color: #ee3643;
   border-radius: 3px;
   
   -webkit-transition: all 0.15s ease;
-  
   -o-transition: all 0.15s ease;
-  
   transition: all 0.15s ease;
 }
 .slider-btn:hover {
@@ -1298,14 +1232,15 @@ input::placeholder {
   background-color: #ba2732;
 }
 .slider-controls button {
-  content: "";
-  display: block;
   position: absolute;
   left: -200px;
   top: -100px;
 
+  display: block;
   width: 22px;
   height: 40px;
+
+  content: "";
 
   background-image: url("../img/icon-left.svg");
   background-color: transparent;
@@ -1318,9 +1253,7 @@ input::placeholder {
   cursor: pointer;
 
   -webkit-transition: all 0.15s ease;
-
   -o-transition: all 0.15s ease;
-
   transition: all 0.15s ease;
 }
 .slider-controls button:hover {
@@ -1336,16 +1269,15 @@ input::placeholder {
   opacity: 0.1;
 }
 .features-item::after {
-  content: '';
-
   position: absolute;
   right: 43px;
   top: 30px;
 
+  display: block;
   width: 45px;
   height: 65px;
 
-  display: block;
+  content: '';
 
   background-image: url("../img/features_materials.png");
   background-position: 50% 50%;
@@ -1397,11 +1329,11 @@ input::placeholder {
   padding: 0;
   margin-bottom: 11px;
 
+  font-size: 24px;
+  line-height: 30px;
   font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 700;
   color: #ffffff;
-  font-size: 24px;
-  line-height: 30px;
 }
 .features-item:nth-child(2) {
   background-color: #3bbce3;
@@ -1420,28 +1352,25 @@ input::placeholder {
 }
 .features-btn {
   display: block;
+  width: 135px;
   padding: 11px 0;
   margin-left: 4px;
-
-  width: 135px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 
+  font-size: 14px;
+  line-height: 18px;
   font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
-  color: #ffffff;
-  font-size: 14px;
-  line-height: 18px;
   text-align: center;
+  color: #ffffff;
 
   border-radius: 4px;
   background-color: rgba(0, 0, 0, 0.1);
   
   -webkit-transition: all 0.15s ease;
-  
   -o-transition: all 0.15s ease;
-  
   transition: all 0.15s ease;
 }
 .features-btn:hover {
@@ -1462,9 +1391,6 @@ input::placeholder {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-/*  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;*/
   -webkit-box-align: flex-start;
       -ms-flex-align: flex-start;
           align-items: flex-start;
@@ -1474,10 +1400,9 @@ input::placeholder {
   list-style: none;
 }
 .brand-item {
+  width: 220px;
   margin-bottom: 20px;
   margin-right: 20px;
-
-  width: 220px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 
@@ -1491,13 +1416,10 @@ input::placeholder {
 }
 .brand-item a {
   display: block;
-
   height: 100%; 
 
   -webkit-transition: all 0.15s ease; 
-
   -o-transition: all 0.15s ease; 
-
   transition: all 0.15s ease;
 }
 .brand-item:first-child a {
@@ -1540,7 +1462,6 @@ input::placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-
   padding: 27px 28px;
   padding-right: 25px;
   margin-bottom: 19px;
@@ -1551,33 +1472,32 @@ input::placeholder {
   margin: 0;
   padding: 0;
 
-  font-family: "Cuprum", "Arial", sans-serif;
-  text-transform: uppercase;
   font-size: 30px;
   line-height: 30px;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
-
+  text-transform: uppercase;
   color: #32425c;
 }
 .popular-btn {
   display: block;
-  padding: 10px 54px;
+  min-width: 252px;  
+  padding: 10px 40px;
+  box-sizing: border-box;
 
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
-  color: #ffffff;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
+  color: #ffffff;
 
   background-color: #ee3643;
   border-radius: 3px;
 
   -webkit-transition: all 0.15s ease;
-
   -o-transition: all 0.15s ease;
-
   transition: all 0.15s ease;
 }
 .popular-products {
@@ -1595,7 +1515,6 @@ input::placeholder {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-
   margin: 0;
   padding: 0;
 
@@ -1609,23 +1528,19 @@ input::placeholder {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-
+  width: 218px;
   margin: 0;
   padding-bottom: 20px;
-
-  width: 218px;
 }
 .item-cart h3 {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  z-index: 100;
+
   margin: 0;
   padding: 0;
   padding-bottom: 10px;
-
-  -webkit-box-ordinal-group: 3;
-
-      -ms-flex-order: 2;
-
-          order: 2;
-  z-index: 100;
 }
 .item-cart p {
   margin: 0;
@@ -1643,7 +1558,6 @@ input::placeholder {
 }
 .catalog-item-brand span {
   display: block;
-
   padding: 0 11px;
   margin-bottom: 0;
 }
@@ -1652,31 +1566,30 @@ input::placeholder {
   margin-top: auto;
 }
 .active-price {
-  display: block;
+  position: relative;
+  z-index: 100;
 
+  display: block;
+  width: 120px;
   margin-top: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 16px;
-
-  position: relative;
-  width: 120px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  z-index: 100;
 
   border-radius: 3px;
 }
 .active-price::after {
-  content: "";
-
-  display: block;
   position: absolute;
   right: -37px;
   top: 0;
 
+  display: block;
   width: 0;
   height: 0;
+
+  content: "";
 
   border: 19px solid #EE3644;
   border-top-color: transparent;
@@ -1699,19 +1612,19 @@ input::placeholder {
   padding: 0;
   margin-bottom: 26px; 
 
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 30px;
   line-height: 30px;
-  color: #000000;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: uppercase;  
+  color: #000000;
 }
 .services p {
   width: 400px;
 
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 400;
   color: #000000;
 }
@@ -1725,7 +1638,6 @@ input::placeholder {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-
   padding-bottom: 37px;
 }
 .services-slider::before,
@@ -1748,19 +1660,17 @@ input::placeholder {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-
-  margin-right: 80px;
-
   width: 240px;
+  margin-right: 80px;
 }
 .services-slider-controls label {
   display: block;
   width: 100%;
   padding: 15px 0 17px 22px;
 
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 21px;
   line-height: 30px;
+  font-family: "Cuprum", "Arial", sans-serif;
   color: #ffffff;
   font-weight: 700;
 
@@ -1770,9 +1680,7 @@ input::placeholder {
   cursor: pointer;
 
   -webkit-transition: all 0.15s ease;
-
   -o-transition: all 0.15s ease;
-
   transition: all 0.15s ease;
 }
 .services-slider-controls label:hover {
@@ -1793,37 +1701,33 @@ input::placeholder {
   border-bottom-color: #ffffff;
 }
 .services-item .services-item-desc {
+  width: 275px;
   margin: 0;
   margin-bottom: 50px;
   padding: 0 20px 0 0;
-
-  width: 275px;
 }
 .services-item h3 {
   margin: 0;
   padding: 0;
   margin-bottom: 25px;
 
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 36px;
   line-height: 36px;
-  color: #32425c;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
+  color: #32425c;
 }
 .services-list {
   position: relative;
 
+  width: 218px;
   padding: 0;
   margin: 0;
-
-  width: 218px;
 
   list-style: none;
 }
 .services-list::after {
-  content: "";
-
   position: absolute;
   left: -90px;
   top:-40px;
@@ -1831,6 +1735,8 @@ input::placeholder {
   display: block;
   width: 15px;
   height: 265px;
+
+  content: "";
 
   background-image: url("../img/shadow.png");
   background-repeat: no-repeat;
@@ -1849,21 +1755,19 @@ input::placeholder {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 
-  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: #ffffff;
+  font-family: "Cuprum", "Arial", sans-serif;
   text-transform: uppercase;
   text-align: center;
+  color: #ffffff;
 
   background-color: #ff5357;
   border-radius: 2px;
 
   -webkit-transition: all 0.15s ease;
-
   -o-transition: all 0.15s ease;
-
   transition: all 0.15s ease;
 }
 .services-credit-link:hover {
@@ -1901,11 +1805,10 @@ input::placeholder {
   width: 390px;
 }
 .services-slide-credit .services-item-desc {
+  width: 280px;  
   margin: 0;
   margin-bottom: 25px;
   padding: 0 10px 0 0;
-
-  width: 280px;
 }
 .services-slide-delivery {
   margin-bottom: 80px;
@@ -1915,6 +1818,9 @@ input::placeholder {
 }
 .services-slide-credit {
   margin-bottom: 65px;
+}
+.services-slide-guarantee .guarantee-top {
+  margin-bottom: 0;
 }
 .about-us {
   padding: 80px 0 64px;
@@ -1931,11 +1837,10 @@ input::placeholder {
           align-items: flex-start;
 }
 .about-us-desc {
+  width: 570px;  
   padding: 0;
   margin: 0;
-  margin-bottom: 20px;
-
-  width: 570px;  
+  margin-bottom: 20px;  
 }
 .about-us-desc p {
   margin: 0;
@@ -1943,6 +1848,9 @@ input::placeholder {
   margin-bottom: 23px;
 
   letter-spacing: 0.13px;
+}
+.about-us-desc .about-us-second {
+  margin-bottom: 1px;
 }
 .about-us-desc h2 {
   margin: 0;
@@ -1962,14 +1870,13 @@ input::placeholder {
   padding-left: 36px;
   margin-bottom: 20px;
 
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 18px;
   line-height: 20px;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   color: #000000;
 }
 .about-us-list li::before {
-  content: "";
   position: absolute;
   left: 0;
   top: 9px;
@@ -1978,24 +1885,23 @@ input::placeholder {
   width: 25px;
   height: 2px;
 
+  content: "";
+
   background-color: #ee3643;
 }
 .about-us-btn {
-  padding: 10px 0;
-
   display: block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 220px;
+  padding: 10px 0;
 
   text-align: center;
 
   border-radius: 3px;
 
   -webkit-transition: all 0.15s ease;
-
   -o-transition: all 0.15s ease;
-
   transition: all 0.15s ease;
 }
 .about-us-contacts {
@@ -2013,9 +1919,8 @@ input::placeholder {
   padding-right: 80px;
 }
 .map-button {
+  width: 300px;  
   padding: 10px 50px 10px 65px;
-
-  width: 300px;
 
   text-align: left;
 
@@ -2025,14 +1930,15 @@ input::placeholder {
   position: relative;
 }
 .icon-new::before {
-  content: "";
+  position: absolute;
+  right: -1px;
+  top: -1px;
+
   display: block;
   width: 60px;
   height: 59px;
 
-  position: absolute;
-  right: -1px;
-  top: -1px;
+  content: "";
 
   background-image: url("../img/new.png");
   background-repeat: no-repeat;
@@ -2074,19 +1980,16 @@ input::placeholder {
   margin-bottom: 14px;
 }
 .filter-list {
-  margin: 0;
-  padding: 0;
-  margin-bottom: 20px;
-
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
 }
 .filter-list li {
   margin-bottom: 20px;
@@ -2100,6 +2003,9 @@ input::placeholder {
 
   border-radius: 3px;
 }
+.filters-form input:focus + label {
+  outline: auto;
+}
 .perforator-desc {
   padding: 56px 0 58px;  
 
@@ -2110,12 +2016,12 @@ input::placeholder {
   padding: 10px 0;
   margin-bottom: 5px;
 
-  font-family: "Cuprum", "Arial", sans-serif;
-  font-weight: 400;
   font-size: 30px;
   line-height: 30px;
-  color: #000000;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
+  color: #000000;
 }
 .perforator-desc-info {
   margin: 0;
@@ -2130,13 +2036,12 @@ input::placeholder {
   position: absolute;
   top: -1px;
   left: -1px;
+  z-index: 10;
 
-  padding: 43px 0 183px;  
-
-  box-sizing: border-box;
   width: 220px;
   height: calc(100% + 1px);
-  z-index: 10; 
+  padding: 43px 0 183px; 
+  box-sizing: border-box; 
 
   background-color: rgba(255, 255, 255, 1);
   -webkit-box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
@@ -2146,40 +2051,42 @@ input::placeholder {
 .actions .bookmark {
   position: relative;
 
+  display: block;
+  width: 135px;
   margin: 0 auto;
   margin-bottom: 7px;
   padding: 10px 0;
-
-  display: block;
-  width: 135px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   
-  color: white;
+
   font-size: 14px;
-  font-weight: normal;
-  font-family: "Cuprum", "Arial", sans-serif;
   line-height: 18px;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-weight: normal;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-box-shadow: inset 0 -3px 0 #518534;
-          box-shadow: inset 0 -3px 0 #518534;
-  -webkit-transition: all 0.15s ease;
-  -o-transition: all 0.15s ease;
-  transition: all 0.15s ease;
+  color: white;
 
   background-color: #63a63e;
   border-radius:3px;
+  -webkit-box-shadow: inset 0 -3px 0 #518534;
+          box-shadow: inset 0 -3px 0 #518534;
+
+  -webkit-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  transition: all 0.15s ease;
 }
 .actions .buy::before {
-  content: "";
+  position: absolute;
+  left: 10px;
+  top: 10px;
+
   display: block;
   width: 16px;
   height: 18px;
 
-  position: absolute;
-  left: 10px;
-  top: 10px;
+  content: "";
 
   background-image: url(../img/icon-cart.svg);
   background-repeat: no-repeat;
@@ -2192,7 +2099,8 @@ input::placeholder {
 .actions .bookmark {
   padding: 9px 5px 7px;
   
-  color: #32425c;  
+  color: #32425c; 
+
   background: white; 
   border: 3px solid #63a63e;
   -webkit-box-shadow: none;
@@ -2213,6 +2121,7 @@ input::placeholder {
 }
 .item-cart .actions {
   opacity: 0;
+
   -webkit-transition: all 0.15s ease;
   -o-transition: all 0.15s ease;
   transition: all 0.15s ease;
@@ -2224,8 +2133,8 @@ input::placeholder {
   width: 220px;
   margin: 20px auto;
 
-  color: #ffffff;
   text-transform: uppercase;
+  color: #ffffff;
 }
 .price-range {
   padding: 0;
@@ -2235,20 +2144,18 @@ input::placeholder {
   padding-top: 0;
   margin-bottom: 15px;
 
-  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 30px;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 700;
-  color: #000000;
   text-transform: uppercase;
+  color: #000000;
 }
 .price-controls {
   position: relative;
 
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -2261,17 +2168,16 @@ input::placeholder {
   width: 95px;
 }
 .price-controls input {
+  width: 100%;
+  padding: 7px 5px 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 100%;
-  
-  padding: 9px 0;
 
+  font-size: 17px;
+  line-height: 18px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 400;
   color: #000000;
-  font-size: 17px;
-  line-height: 18px;
 
   background-color: #f7f3ec;
   outline: 0;
@@ -2285,20 +2191,19 @@ input::placeholder {
   padding-left: 25px;
 }
 .range-controls {
+  position: relative;
+
+  width: 100%;
   margin-bottom: 10px;
   padding: 38px 0 39px;
-
-  position: relative;
-  width: 100%;
 
   background-color: #f7f3ec;
 }
 
 .range-controls .scale {
+  height: 2px;
   margin-left: 20px;
   margin-right: 20px;
-
-  height: 2px;
 
   background-color: #d7dcde;
 }
@@ -2331,61 +2236,57 @@ input::placeholder {
   left: 20px;
 }
 .price-controls::after {
-  content: "";
+  position: absolute;
+  bottom: 17px;
+  left: 105px;
+
   display: table;
   width: 10px;
   height: 1px;
 
-  position: absolute;
-  bottom: 17px;
-  left: 105px;
+  content: "";
 
   background-color: #444444;
 }
 .range-toggle-max {
   left: 161px;
 }
-.filters-title {
+.filters-title { 
+  width: 100%;
   margin: 0;
   padding: 10px 0 9px 19px;
   margin-bottom: 12px;
-  
-  width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 
-  font-weight: 400;
   font-size: 13px;
   line-height: 18px;
-  color: #000000;
+  font-weight: 400;
   text-transform: uppercase;
+  color: #000000;
 
   background-color: #f7f3ec;
   border-radius: 3px;
 }
 .catalog-filters {
-  margin: 0;
-  padding: 10px 19px 9px;
-  margin-bottom: 21px;
-
-  width: 100%;  
-  -webkit-box-sizing: border-box;  
-          box-sizing: border-box;
-  
   display: -webkit-box;
-  
   display: -ms-flexbox;
-  
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 10px 19px 9px;
+  margin-bottom: 21px;
+  -webkit-box-sizing: border-box;  
+          box-sizing: border-box;
   
-  font-weight: 400;
   font-size: 13px;
   line-height: 18px;
-  color: #000000;
+  font-weight: 400;
   text-transform: uppercase;
+  color: #000000;
 
   background-color: #f7f3ec;
   border-radius: 3px;
@@ -2397,13 +2298,13 @@ input::placeholder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;  
-
   margin: 0;
   padding: 0;
 
@@ -2412,8 +2313,19 @@ input::placeholder {
 .catalog-filters .catalog-icons-list {
   margin-left: auto;
 }
-.catalog-filters-list {
-  width: 355px;
+.catalog-filters .catalog-filters-list {
+  justify-content: flex-start;
+
+  width: 360px;
+}
+.catalog-filters-list li {
+  margin-right: 70px;
+}
+.catalog-filters-list li:nth-child(2) {
+  margin-right: 66px;
+}
+.catalog-filters-list li:last-child {
+  margin-right: 0;
 }
 .catalog-icons-list {
   width: 42px;
@@ -2421,21 +2333,22 @@ input::placeholder {
 .catalog-filters-list a {
   padding-bottom: 0;
 
-  border-bottom: 1px dotted #ee3643;
   color: rgba(0, 0, 0, 0.3);
 
+  border-bottom: 1px dotted #ee3643;
+
   -webkit-transition: all 0.15s ease;
-
   -o-transition: all 0.15s ease;
-
   transition: all 0.15s ease;
 }
 .catalog-filters-list a:hover {
   color: #000000;
+
   border-bottom: 1px solid #ee3643;
 }
 .catalog-filters-list a:active {
   color: #ee3643;
+
   border-bottom: none;
 }
 .catalog-icons-list svg {
@@ -2452,16 +2365,17 @@ input::placeholder {
 }
 .filters-form::before,
 .filters-form::after {
-  content: "";
-  display: block;
-  width: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  height: 1px;
-
   position: absolute;
   left: 0;
-  top: -27px;
+  top: -17px;
+
+  display: block;
+  width: 100%;
+  height: 1px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+
+  content: "";
 
   background-color: #e5e5e5;
 }
@@ -2473,10 +2387,10 @@ input::placeholder {
   padding-left: 2px;
   padding-right: 25px;
 
-  font-family: "Cuprum", "Arial", sans-serif;
   font-style: normal;
   font-size: 18px;
   line-height: 24px;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   color: #ffffff; 
 }
@@ -2484,9 +2398,9 @@ input::placeholder {
   list-style: none;
 }
 .footer-nav a {
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 18px;
   line-height: 24px;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   color: #ffffff; 
 }
@@ -2494,9 +2408,9 @@ input::placeholder {
   color: #ffd180; 
 }
 .footer-copyright {
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 16px;
   line-height: 18px;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   color: #ffffff;   
 }
@@ -2507,9 +2421,9 @@ input::placeholder {
   color: #ffffff; 
 }
 .footer-developers {
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 16px;
   line-height: 18px;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   color: #ffffff;   
 }
@@ -2523,24 +2437,23 @@ input::placeholder {
   text-decoration: underline; 
 } 
 .main-footer-nav a:active {
-  color: rgba(255, 255, 255, 0.3);  
+  text-decoration: none; 
+  color: rgba(255, 255, 255, 0.3); 
 } 
 .sub-footer-nav a:active {
-  color: rgba(255, 209, 128, 0.3);  
+  text-decoration: none; 
+  color: rgba(255, 209, 128, 0.3); 
 }
 .footer-developers a:hover {
   text-decoration: underline;   
 }
 .footer-developers a:active {
+  text-decoration: none;
   color: #ee3643;
 }
 .top-footer-container {
-  padding: 0 10px 49px;
-
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -2548,17 +2461,18 @@ input::placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; 
+  padding: 0 10px 48px;
 }
 .top-footer-wrap {
   background-color: #32425c;
 }
 .top-footer-left {
-  padding-right: 30px;
-  
-  width: 370px;
+  width: 392px;
+  padding-right: 35px;
+  box-sizing: border-box;
 }
 .top-footer-right {
-  width: 560px;
+  width: 548px;
 }
 .footer-nav {
   display: -webkit-box;
@@ -2585,31 +2499,23 @@ input::placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-
   padding: 34px 0 30px;
 }
 .footer-copyright {
   width: 240px;
 }
 .footer-social ul {
-  margin: 0 auto;
-  padding: 0;
-
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-/*  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;*/
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-
   width: 138px;
+  margin: 0 auto;
+  padding: 0;
 }
 .footer-social-block li {
   margin-right: 3px;
@@ -2623,15 +2529,8 @@ input::placeholder {
   background-color: #ee3643;
 }
 .footer-developers ul {
-  margin: 0;
-  padding: 0;
-
-  width: 298px;
-
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -2639,6 +2538,9 @@ input::placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 298px;
+  margin: 0;
+  padding: 0;
 } 
 .social-button {
   display: -webkit-box;
@@ -2650,7 +2552,6 @@ input::placeholder {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-
   width: 43px;
   height: 43px;
 
@@ -2658,17 +2559,14 @@ input::placeholder {
   border-radius: 50%;
 
   -webkit-transition: all 0.15s ease;
-
   -o-transition: all 0.15s ease;
-
   transition: all 0.15s ease;
 }
 .main-footer-logo {
-  margin-bottom: 27px;
-  padding: 21px 0 12px;
-
   display: block; 
   width: 218px;
+  margin-bottom: 27px;
+  padding: 21px 0 12px;
 
   text-align: center;
 
@@ -2676,18 +2574,14 @@ input::placeholder {
   border-bottom: 5px solid #b52933; 
 
   -webkit-transition: all 0.15s ease; 
-
   -o-transition: all 0.15s ease; 
-
   transition: all 0.15s ease;
 }
 .footer-nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2698,8 +2592,20 @@ input::placeholder {
   margin-bottom: 17px;
   margin-top: 28px;
 }
+.main-footer-nav li {
+  margin-right: 58px;
+}
+.main-footer-nav li:last-child {
+  margin-right: 0;
+}
 .sub-footer-nav {
   padding: 3px 0 0 23px;
+}
+.sub-footer-nav li {
+  margin-right: 59px;
+}
+.sub-footer-nav li:last-child {
+  margin-right: 0;
 }
 .bottom-footer p {
   margin: 0;
@@ -2730,25 +2636,20 @@ input::placeholder {
 
   display: none;
   width: 621px;
-  
   margin-top: -135px;  
   margin-left: -310px;
   padding: 47px 80px 38px;
-
-  background-color: #ffffff;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+
+  background-color: #ffffff;
   border-top: 7px solid #ff5257;
   -webkit-box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.3);
 }
 .feedback-form {
-  padding: 0;
-
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -2758,27 +2659,25 @@ input::placeholder {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding: 0;
 }
 .feedback-form p {
   width: 220px;
-
   margin: 0;
   padding: 0;
   margin-bottom: 20px;
 }
 .feedback-form .feedback-textarea {
   width: 100%;
-
   margin-bottom: 66px;
 }
 .feedback-form input, 
 .feedback-form textarea {
   width: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-
   padding: 10px 13px;
   margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 
   outline: none;
   border: 2px solid #dee3e4;
@@ -2803,19 +2702,18 @@ input::placeholder {
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: transparent;
-
   cursor: pointer;
 }
 .modal-close::before,
 .modal-close::after {
-  content: "";
-
   position: absolute;
   top: 9px;
   right: -2px;
 
   width: 26px;
   height: 4px;
+
+  content: "";
 
   background-color: #ee3643;
 }
@@ -2831,70 +2729,68 @@ input::placeholder {
 }
 .feedback-form label {
   display: block;
-
   margin-bottom: 9px;
 
-  font-family: "Cuprum", "Arial", sans-serif;
-  font-weight: 400;
   font-size: 18px;
   line-height: 18px;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-weight: 400;
   color: #000000;
 }
 .feedback-form input::-webkit-input-placeholder,
 .feedback-form textarea::-webkit-input-placeholder{
-  font-family: "PT sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
+  font-family: "PT sans", "Arial", sans-serif;
   font-weight: 400;
   color: #a9a9a9; 
 }
 .feedback-form input:-ms-input-placeholder,
 .feedback-form textarea:-ms-input-placeholder{
-  font-family: "PT sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
+  font-family: "PT sans", "Arial", sans-serif;
   font-weight: 400;
   color: #a9a9a9; 
 }
 .feedback-form input::-ms-input-placeholder,
 .feedback-form textarea::-ms-input-placeholder{
-  font-family: "PT sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
+  font-family: "PT sans", "Arial", sans-serif;
   font-weight: 400;
   color: #a9a9a9; 
 }
 .feedback-form input::placeholder,
 .feedback-form textarea::placeholder{
-  font-family: "PT sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
+  font-family: "PT sans", "Arial", sans-serif;
   font-weight: 400;
   color: #a9a9a9; 
 }
 .feedback-form input:-ms-input-placeholder,
 .feedback-form textarea:-ms-input-placeholder {
-  font-family: "PT sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
+  font-family: "PT sans", "Arial", sans-serif;
   font-weight: 400;
   color: #a9a9a9; 
 }
-.modal-feedback .submit-button {
-  padding: 10px 0;  
-
+.modal-feedback .submit-button { 
   display: block;
   width: 100%;
+  padding: 10px 0; 
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 
-  text-align: center;
-  font-family: "Cuprum", "Arial", sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: #ffffff;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-weight: 400;
+  text-align: center;
   text-transform: uppercase;
+  color: #ffffff;
 
   outline: none;
   -webkit-box-shadow: none;
@@ -2905,17 +2801,18 @@ input::placeholder {
   cursor: pointer;
 }
 .submit-button::before {
-  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
+  z-index: -1;
 
   display: block;
   width: 621px;
   height: 112px;
 
+  content: "";
+
   background-color: #f4f4f4;
-  z-index: -1;
 }
 .submit-button:hover {
   background-color: #ca2c37;
@@ -2923,19 +2820,25 @@ input::placeholder {
 .submit-button:active {
   background-color: #ba2732;
 }
+.modal-feedback input:hover, 
+.modal-feedback textarea:hover {
+  box-shadow: 0 0 15px 0 #dee3e4;
+}
+.modal-feedback input:focus, 
+.modal-feedback textarea:focus {
+  box-shadow: 0 0 15px 0 rgba(255, 82, 87, 0.5);
+}
 .modal-map {
   position: fixed;
   top: 50%;
   left: 50%;
-  margin-top: -335px;
-  margin-left: -485px;
+  z-index: 10;
 
-  display: none;
-
+  display: none;  
   width: 970px;
   height: 476px;
-  
-  z-index: 10;
+  margin-top: -335px;
+  margin-left: -485px;
 }
 .modal-map iframe {
   width: 970px; 
@@ -2947,7 +2850,6 @@ input::placeholder {
 .modal-map-close {
   top: 15px;
   right: 45px;
-
   z-index: 16;
 }
 .modal-cart {
@@ -2956,14 +2858,13 @@ input::placeholder {
   left: 50%;
   z-index: 100;
 
+  display: none;
+  width: 620px;
+  height: 275px;
   margin-top: -74px;
   margin-left: -309px;
   padding: 65px 0;
   padding-bottom: 0;
-
-  display: none;
-  width: 620px;
-  height: 275px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 
@@ -2980,21 +2881,22 @@ input::placeholder {
   margin-bottom: 70px;
   padding-left: 179px;
 
-  font-family: "Cuprum", "Arial", sans-serif;
-  font-weight: 400;
   font-size: 30px;
   line-height: 30px;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-weight: 400;
   color: #000000;
 }
 .modal-cart h2::before {
-  content: "";
+  position: absolute;
+  left: 80px;
+  top: -17px;
+
   display: block;
   width: 66px;
   height: 66px;
 
-  position: absolute;
-  left: 80px;
-  top: -17px;
+  content: "";
 
   background-image:url("../img/form.svg");
   background-repeat: no-repeat;
@@ -3006,13 +2908,8 @@ input::placeholder {
   background-color: #f1f1f1;
 }
 .modal-cart ul {
-  margin: 0;
-  padding: 36px 79px;
-
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -3020,8 +2917,9 @@ input::placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-
   width: 100%;
+  margin: 0;
+  padding: 36px 79px;  
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 
@@ -3035,26 +2933,25 @@ input::placeholder {
   width: 100%;
   padding: 10px 0;
 
-  text-align: center;
-  font-family: "Cuprum", "Arial", sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: #ffffff;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-weight: 400;
+  text-align: center;
   text-transform: uppercase;
+  color: #ffffff;
+
   background-color: #ee3643;
   border-radius: 3px;
 
   -webkit-transition: all 0.15s ease;
-
   -o-transition: all 0.15s ease;
-
   transition: all 0.15s ease;
 }
 .modal-more-shopping {
-  background-color: #ffffff;
-
   color: #000000;
+
+  background-color: #ffffff;
 }
 .modal-checkout:hover {
   background-color: #ca2c37;
@@ -3063,20 +2960,21 @@ input::placeholder {
   background-color: #ba2732;
 }
 .modal-more-shopping:hover {
+  color: rgb(238, 54, 67);
+
   -webkit-box-shadow: 0 0 5px 0 rgba(238, 54, 67, 0.8);
           box-shadow: 0 0 5px 0 rgba(238, 54, 67, 0.8);
-  color: rgb(238, 54, 67);
 }
 .modal-more-shopping:active {
+  color: rgb(186, 39, 50);
+
   -webkit-box-shadow: 0 0 5px 0 rgba(186, 39, 50, 0.8);
           box-shadow: 0 0 5px 0 rgba(186, 39, 50, 0.8);
-  color: rgb(186, 39, 50);
 }
 .modal-show {
   display: block;
 
   -webkit-animation: bounce 0.6s;
-
           animation: bounce 0.6s;
 }
 @-webkit-keyframes bounce {
@@ -3177,14 +3075,13 @@ input::placeholder {
   position: fixed;
   top: 50%;
   left: 50%;
-
-  margin-top: -335px;
-  margin-left: -485px;
+  z-index: 15;
 
   width: 970px;
   height: 476px;
+  margin-top: -335px;
+  margin-left: -485px;
 
-  z-index: 15;
   border: none;
 }
 .modal-map-show {
@@ -3192,4 +3089,40 @@ input::placeholder {
 }
 .not-empty {
   background-color: #EE3643
+}
+.filter-price.filter-active {
+  color: #ee3643;
+
+  border-bottom: none;
+}
+.filter-price.filter-active:hover {
+  color: #ee3643;
+
+  border-bottom: none;
+}
+.filter-price.filter-active:active {
+  color: #ee3643;
+
+  border-bottom: none;
+}
+.icon-link.filter-active svg {
+  fill: #ee3643;
+  border-bottom: none;
+}
+.icon-link.filter-active:hover svg {
+  fill: #ee3643;
+  border-bottom: none;
+}
+.icon-link.filter-active:active svg {
+  fill: #ee3643;
+  border-bottom: none;
+}
+.phone-link {
+  color: #e9292a;
+}
+.phone-link:hover::before {
+  opacity: 1;
+}
+.phone-link:active::before {
+  opacity: 1;
 }
