@@ -2163,6 +2163,7 @@ input::placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 43px;
 }
 .price-controls label {
   width: 95px;
@@ -2367,7 +2368,7 @@ input::placeholder {
 .filters-form::after {
   position: absolute;
   left: 0;
-  top: -17px;
+  top: 195px;
 
   display: block;
   width: 100%;
@@ -2822,11 +2823,11 @@ input::placeholder {
 }
 .modal-feedback input:hover, 
 .modal-feedback textarea:hover {
-  box-shadow: 0 0 15px 0 #dee3e4;
+  border-color: #b5b5b5;
 }
 .modal-feedback input:focus, 
 .modal-feedback textarea:focus {
-  box-shadow: 0 0 15px 0 rgba(255, 82, 87, 0.5);
+  border-color: #ee3643;
 }
 .modal-map {
   position: fixed;
